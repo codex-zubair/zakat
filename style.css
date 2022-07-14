@@ -109,41 +109,51 @@
 
 .the-live-depend-on-your-donation-div-right iframe
 {
-    width: 35vw;
-    height: 30vw;
+    width: var(--responsive-box-width);
+    height: var(--responsive-box-height);
 }
 
 
 .the-live-depend-on-your-donation-div-left
 {   
     
-    width: 35vw;
-    height: 20vw;
+    width: var(--responsive-box-width);
+    height: var(--responsive-box-height);
     padding-top: 300px;
     padding-left: 50px;
     padding-right: 150px;
 
-    
-    
     
 }
 
 
 .the-live-depend-on-your-donation-div-left h1
 {
-    font-size: 3vw;
+    font-size: var(--common-heading-size);
 }
 
 .the-live-depend-on-your-donation-div-left p
 {
-    font-size: 1.5vw;
+    font-size: var(--common-paragraph-size);
 }
 
 
-.the-live-depend-on-your-donation-div-left a
+.the-live-depend-on-your-donation-button
 
 {
-    font-size: 40px;
+    color: white;
+    display: block;
+    position: absolute;
+    text-decoration: none;
+    
+    
+
+    background-image: var(--button-color);
+
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: var(--button-font-size);
+    padding: var(--button-padding);
 }
 
 
@@ -177,12 +187,10 @@
 /* They need us section */
 .they-need-us
 {
+    
     display: flex;
-    
-    
-    height: 550px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 500px;
+    margin-right: 500px;
     margin-top: 200px;
     justify-content: center;
 }
@@ -190,32 +198,41 @@
 
 .they-need-us-right-div
 {
-    padding-top: 160px;
+
+    width: var(--responsive-box-width);
+    height: var(--responsive-box-height);
+    padding-top: 300px;
+    padding-left: 150px;
     padding-right: 50px;
-    padding-left: 50px;
-    margin-right: 10px;
+
 }
+
+
+.they-need-us-right-div>h1
+{
+    font-size: var(--common-heading-size);
+}
+
 
 
 
 .they-need-us-left-div img
 {
-    height: 550px;
-    width: 845px ;
-    border-radius: 10px;
+    height: var(--responsive-box-height);
+    width: var(--responsive-box-width);
 }
 
 
 
 .they-need-us-right-div h1
 {
-    font-size: 50px;
+    font-size: var(--common-heading-size);
 
 }
 
 .they-need-us-right-div p
 {
-    font-size: 30px;
+    font-size: var(--common-paragraph-size)
 }
 
 .they-need-us-right-div a
