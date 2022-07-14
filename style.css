@@ -32,6 +32,8 @@
 
 
 
+
+
 /* Top Section */
 .cover-section
 {
@@ -84,7 +86,6 @@
     
 
     background-image: var(--button-color);
-
     margin-top: 20px;
     font-weight: bold;
     font-size: var(--button-font-size);
@@ -167,7 +168,6 @@
     margin-left: 10px;
     
     
-    
 }
 
 .the-live-depend-on-your-donation-div-right iframe
@@ -175,9 +175,6 @@
 {
     border-radius: 10px;
 }
-
-
-
 
 
 
@@ -196,6 +193,13 @@
 }
 
 
+.they-need-us-left-div img
+{
+    height: var(--responsive-box-height);
+    width: var(--responsive-box-width);
+}
+
+
 .they-need-us-right-div
 {
 
@@ -208,37 +212,38 @@
 }
 
 
-.they-need-us-right-div>h1
-{
-    font-size: var(--common-heading-size);
-}
-
-
-
-
-.they-need-us-left-div img
-{
-    height: var(--responsive-box-height);
-    width: var(--responsive-box-width);
-}
-
-
-
 .they-need-us-right-div h1
 {
     font-size: var(--common-heading-size);
-
 }
+
 
 .they-need-us-right-div p
 {
     font-size: var(--common-paragraph-size)
 }
 
-.they-need-us-right-div a
-{
-    font-size: 40px;
+
+.Right-donate-button
+{   
+    position: absolute;
+    text-decoration: none;
+    font-size: var(--button-font-size);
+    background-image: var(--button-color);
+    padding: var(--button-padding);
+    color: white;
+    font-weight: bold;
+    margin-top:20px;
 }
+
+
+
+
+
+
+
+
+
 
 
 
