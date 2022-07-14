@@ -24,8 +24,14 @@
 
 
     /* box responsive width and height */
-    --responsive-box-height: 30vw;
-    --responsive-box-width: 35vw;
+    --responsive-box-height: 30vh;
+    --responsive-box-width: 30vw;
+
+
+
+    /* Card Box height and width */
+    --responsive-card-weight: 20vw;
+    --responsive-card-height: 10vw;
 
     
 }
@@ -188,7 +194,6 @@
     display: flex;
     margin-left: 500px;
     margin-right: 500px;
-    margin-top: 200px;
     justify-content: center;
 }
 
@@ -244,42 +249,35 @@
 
 
 
+/* Section-3 + Card Div section*/
 
 
-
-
-
-
-
-
-
-
-
-
-/* Section-3 */
-
-
-
-
-/* Section-3 Card div */
 
 
 
 .section-3
 {
-    margin-top: 300px;
+    margin-top: 1000px;
     text-align: center;
+    position:relative;
+
+    height: 40vh;
+    width: 100%;
+    padding-bottom:500px;
+    margin-bottom:1000px ;
+
+    
 }
 
 
 .section-3 h1
 {
-    font-size: 60px;
+    font-size: var(--common-heading-size)
 }
 
 .section-3 p
 {
-    font-size: 30px;
+  font-size: var(--common-paragraph-size);
 }
 
 
@@ -287,11 +285,12 @@
 {   
 
     margin-top: 100px;
-    margin-bottom: 10px;
+   
     justify-content: center;
-    padding: 100px;
-    height: 700px;
-    background-color: red;
+
+    padding-top: 100px;
+    padding-bottom: 450px;
+ 
 }
 
 
@@ -301,6 +300,26 @@
     justify-content: center;
 }
 
+.section-3-div-1
+{   
+
+  
+    background-color: greenyellow;
+    height: 17vw;
+    width: 25vw;
+    margin: 10px;
+    border-radius: 20px;
+}
+.section-3-div-2
+
+{
+    background-color:orange;
+    margin: 10px;
+    height: 17vw;
+    width: 25vw;
+    border-radius: 20px;
+    
+}
 
 .section-3-bottom-div
 {
@@ -309,37 +328,14 @@
 }
 
 
-.section-3-div-1
-{
-    background-color: greenyellow;
-    width: 500px;
-    margin: 10px;
-    
-    height: 300px;
-    border-radius: 20px;
-}
-.section-3-div-2
-
-{
-    background-color:orange;
-    
-    
-    margin: 10px;
-    width: 500px;
-    height: 300px;
-    border-radius: 20px;
-    
-    
-    
-}
 
 .section-3-div-3
 {
     background-color: skyblue;
     
     margin: 10px;
-    width: 500px;
-    height: 300px;
+    height: 17vw;
+    width: 25vw;
     border-radius: 20px;
 }
 .section-3-div-4
@@ -347,8 +343,8 @@
     background-color: antiquewhite;
     margin: 10px;
     
-    width: 500px;
-    height: 300px;
+    height: 17vw;
+    width: 25vw;
     border-radius: 20px;
 }
 
