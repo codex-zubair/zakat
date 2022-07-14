@@ -59,7 +59,66 @@
 .the-live-depend-on-your-donation
 {
     display: flex;
+  
+
+    height: 550px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 200px;
+    justify-content: center;
 }
+
+
+.the-live-depend-on-your-donation-div-left
+{   
+    padding-top: 160px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-right: 10px;
+    
+}
+
+
+.the-live-depend-on-your-donation-div-left h1
+{
+    font-size: 50px;
+}
+
+.the-live-depend-on-your-donation-div-left p
+{
+    font-size: 30px;
+}
+
+
+.the-live-depend-on-your-donation-div-left a
+
+{
+    font-size: 40px;
+}
+
+
+
+
+
+
+.the-live-depend-on-your-donation-div-right
+{
+   
+    margin-left: 10px;
+
+   
+}
+
+.the-live-depend-on-your-donation-div-right iframe
+
+{
+    border-radius: 10px;
+}
+
+
+
+
+
 
 
 
@@ -68,7 +127,59 @@
 .they-need-us
 {
     display: flex;
+  
+
+    height: 550px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 200px;
+    justify-content: center;
 }
+
+
+.they-need-us-right-div
+{
+    padding-top: 160px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-right: 10px;
+}
+
+
+
+.they-need-us-left-div img
+{
+    height: 550px;
+    width: 845px ;
+    border-radius: 10px;
+}
+
+
+
+.they-need-us-right-div h1
+{
+    font-size: 50px;
+
+}
+
+.they-need-us-right-div p
+{
+    font-size: 30px;
+}
+
+.they-need-us-right-div a
+{
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
