@@ -189,36 +189,199 @@
 
 
 /* Section-3 Card div */
-.section-3-card-div
+
+
+
+.section-3
 {
-    display: flex;
+    margin-top: 300px;
+    text-align: center;
 }
 
+
+.section-3 h1
+{
+    font-size: 60px;
+}
+
+.section-3 p
+{
+    font-size: 30px;
+}
+
+
+.section-3-card-div
+{   
+
+    margin-top: 100px;
+    margin-bottom: 10px;
+    justify-content: center;
+    padding: 100px;
+    height: 700px;
+    background-color: red;
+}
+
+
+.section-3-top-div
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+.section-3-bottom-div
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+.section-3-div-1
+{
+    background-color: greenyellow;
+    width: 500px;
+    margin: 10px;
+    
+    height: 300px;
+    border-radius: 20px;
+}
+.section-3-div-2
+
+{
+    background-color:orange;
+    
+    
+    margin: 10px;
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    
+    
+    
+}
+
+.section-3-div-3
+{
+    background-color: skyblue;
+    
+    margin: 10px;
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+}
+.section-3-div-4
+{
+    background-color: antiquewhite;
+    margin: 10px;
+    
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+}
 
 
 /* Image-3 section */
 
-.image-3
-{
+.image-3-section
+{   
+
+    margin: 100px;
     display: flex;
+    justify-content: space-around;
 }
 
+
+
+.image-3-div-1
+{
+
+    width: 30%;
+}
+
+
+.image-3-div-2
+{
+    width: 30%
+}
+
+
+.image-3-div-3
+{
+    width: 30%;
+}
 
 
 /* 3-blog-parent-div */
 
 
-.section-3-blog-parent-div
+.section-3-blog
 {
-    display: flex;
+    text-align: center;
 }
+
+.section-3-blog h1
+{
+    font-size: 60px;
+}
+
+
+.section-3-blog p
+{
+    font-size: 30px;
+}
+
+
+.section-3-blog-parent-div
+{   
+
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.section-3-blog-child-div-1
+{
+    width: 30%;
+}
+
+.section-3-blog-child-div-1 a
+{
+    font-size: 30px;
+}
+
+.section-3-blog-child-div-2
+{
+    width: 30%;
+}
+
+
+.section-3-blog-child-div-2 a
+{
+    font-size: 30px;
+}
+.section-3-blog-child-div-3
+{
+    width: 30%;
+}
+
+.section-3-blog-child-div-3 a
+{
+    font-size: 30px;
+}
+
+
+
 
 
 
 /* Footer */
 footer
 {
+    text-align: center;
     background-color: black;
+    height: 200px;
     
 }
 
@@ -226,6 +389,7 @@ footer
 footer h1
 {
 color: white;
+font-size: 40px;
 }
 
 
