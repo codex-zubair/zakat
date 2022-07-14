@@ -10,14 +10,22 @@
 {
 
     /* For heading Section */
-    --heading-size: 200px;
-    --heading-paragraph-size: 50px;
+    --heading-size: 4vw;
+    --heading-paragraph-size: 1.2vw;
+
+    --common-heading-size:3vw;
+    --common-paragraph-size:1.2vw;
 
 
     /* For Button Section */
     --button-color:linear-gradient(orange,tomato);
-    --button-padding: 20px 40px;
-    --button-font-size: 50px
+    --button-padding: .7vh 2vw;
+    --button-font-size:1.3vw;
+
+
+    /* box responsive width and height */
+    --responsive-box-height: 30vw;
+    --responsive-box-width: 35vw;
 
     
 }
@@ -91,34 +99,44 @@
 .the-live-depend-on-your-donation
 {
     display: flex;
-  
-
-    height: 550px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 500px;
+    margin-right: 500px;
     margin-top: 200px;
     justify-content: center;
+
+}
+
+
+.the-live-depend-on-your-donation-div-right iframe
+{
+    width: 35vw;
+    height: 30vw;
 }
 
 
 .the-live-depend-on-your-donation-div-left
 {   
-    padding-top: 160px;
-    padding-right: 50px;
+    
+    width: 35vw;
+    height: 20vw;
+    padding-top: 300px;
     padding-left: 50px;
-    margin-right: 10px;
+    padding-right: 150px;
+
+    
+    
     
 }
 
 
 .the-live-depend-on-your-donation-div-left h1
 {
-    font-size: 50px;
+    font-size: 3vw;
 }
 
 .the-live-depend-on-your-donation-div-left p
 {
-    font-size: 30px;
+    font-size: 1.5vw;
 }
 
 
@@ -135,10 +153,11 @@
 
 .the-live-depend-on-your-donation-div-right
 {
-   
+    
     margin-left: 10px;
-
-   
+    
+    
+    
 }
 
 .the-live-depend-on-your-donation-div-right iframe
@@ -159,8 +178,8 @@
 .they-need-us
 {
     display: flex;
-  
-
+    
+    
     height: 550px;
     margin-left: 100px;
     margin-right: 100px;
